@@ -1,0 +1,455 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Header */
+header {
+    width: 100%;
+    height: 84px;
+}
+
+.header_content {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 84px;
+    line-height: 84px;
+}
+.content {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.header_logo {
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+    top: -5px;
+}
+.header_logo a {
+    line-height: 84px;
+}
+
+.header_logo a img{
+    height: 39px;
+    position: relative;
+    top: -7px;
+    left: -10px;
+}
+
+.header_text {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    height: 42px;
+    line-height: 42px;
+    display: flex;
+    align-content: center;
+    position: relative;
+    top: 5px;
+    left: -2px;
+}
+
+.header_helps {
+    width: 50%;
+    height: 42px;
+    position: relative;
+    line-height: 42px;
+    left: 466px;
+    top: .2px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_helps a {
+    text-decoration: none;
+    color: #EE4D2D;
+}
+
+/* Main */
+main {
+    width: 100%;
+    height: 600px;
+    background-color: #EE4D2D;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main_content {
+    width: 54%;
+    height: 482px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main_logo {
+    width: 61.5%;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.main_logo img {
+    position: relative;
+    left: 120px;
+    top: 25px;
+}
+
+.main_logo_slogan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    position: relative;
+    left: -90px;
+}
+
+.main_logo_slogan p{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main_form {
+    width: 38.5%;
+    height: 428px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    position: relative;
+    top: 24px;
+    left: -10px;
+}
+
+.text {
+    width: 100%;
+    height: 80px;
+    margin-left: 30px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_login {
+    font-size: 23px;
+    margin-right: 10px;
+}
+.text_QR {
+    display: flex;
+    flex-direction: row;
+}
+
+.form_login {
+    height: 326px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    margin: auto;
+}
+
+#username {
+    width: 85%;
+    height: 35px;
+    margin: 0px auto;
+}
+
+#password {
+    width: 85%;
+    height: 35px;
+    margin: 0px auto;
+}
+
+#button_signup {
+    width: 87%;
+    height: 40px;
+    margin: 0px auto;
+    background-color: #EE4D2D;
+    border:  none;
+    border-radius: 4px;
+    color: white;
+    font-size: 17px;
+}
+
+#button_signup:hover {
+   opacity: 0.8;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form_or {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+
+.form_or_text {
+    color: rgba(0, 0, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.login_socials {
+    width: 85%;
+    display: flex;
+    justify-items: center;
+    padding-left: 25px;
+    position: relative;
+    top: -25px;
+}
+
+.login_social {
+    height: 40px;
+    width: 50%;
+    border: 1px solid rgb(151, 151, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.social_logo {
+    margin-right: 4px;
+}
+
+.social_name {
+    position: relative;
+    top: -1px;
+}
+
+.login_socials :hover {
+    background-color: rgba(143, 143, 143, 0.062);
+}
+.new_signup {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.private {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.private_text {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+
+.private_text a{
+    text-decoration: none;
+    color: #EE4D2D;
+   
+}
+
+.signup_text {
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.185);
+}
+
+.signup_link a{
+    text-decoration: none;
+    color: #EE4D2D;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 855px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_top {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(153, 149, 149, 0.5);
+}
+
+.about_shopee {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.shopee {
+    width: 20%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_maintext {
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(61, 61, 61);
+    margin-left: 39px;
+    position: relative;
+    top: 40px;
+}
+
+.list_service ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    position: relative;
+    top: 35px;
+}
+
+.list_service ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 27px;
+    font-size: 12px;
+}
+
+.list_service ul li a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+.list_service ul li a:hover{
+    color: #EE4D2D;
+}
+
+.top_payment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.three_methods {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.three_methods a {
+    border: 1px solid rgba(223, 223, 223, 0.774);
+    border-radius: 2px;
+    width: 55px;
+    height: 25px;
+    margin-left: 10px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.download_icon {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.download_QR {
+    margin-right: 10px;
+    box-shadow: .5px .5px 2px rgba(0, 0, 0, 0.363);
+}
+
+.source_download {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.source_download a {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.315);
+    margin-bottom: 10px;
+    font-size: 10px;
+    padding: 5px;
+    color: black;
+    width: 70px;
+}
+
+.source_download a:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+.footer_bottom {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_bottom_content {
+    display: flex;
+    flex-direction: row;
+    width: 1250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(105, 105, 105, 0.822);
+}
+
+.footer_bottom_content_left {
+    width: 320px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer_bottom_content_space {
+    width: 100px;
+    height: 50px;
+}
+
+.footer_bottom_content_right {
+    width: 830px;
+    height: 50px;
+    text-align: center;
+}

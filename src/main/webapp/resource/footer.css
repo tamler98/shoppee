@@ -1,0 +1,173 @@
+@charset "ISO-8859-1";
+/* Footer */
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_top {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(153, 149, 149, 0.5);
+}
+
+.about_shopee {
+    width: 1250px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.shopee {
+    width: 250px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_maintext {
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(61, 61, 61);
+    margin-left: 25px;
+    position: relative;
+    top: 35px;
+    margin-bottom: 10px;
+}
+
+.list_service ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    position: relative;
+    top: 35px;
+}
+
+.list_service ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 27px;
+    font-size: 12px;
+}
+
+.list_service ul li a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+.list_service ul li a:hover{
+    color: #EE4D2D;
+}
+
+.top_payment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.three_methods {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.three_methods a {
+    border: 1px solid rgba(223, 223, 223, 0.774);
+    border-radius: 2px;
+    width: 55px;
+    height: 25px;
+    margin-left: 10px;
+    position: relative;
+    top: 50px;
+    left: 15px;
+}
+
+.download_icon {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.download_QR {
+    margin-right: 10px;
+    box-shadow: .5px .5px 2px rgba(0, 0, 0, 0.363);
+    height: 110px;
+    width: 110px;
+}
+
+.source_download {
+    width: 70px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.source_download a {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.315);
+    font-size: 10px;
+    padding: 5px;
+    color: black;
+    width: 70px;
+}
+
+.source_download a:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+    text-decoration: none;
+    color: black;
+}
+
+.footer_bottom {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_bottom_content {
+    display: flex;
+    flex-direction: row;
+    width: 1250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(105, 105, 105, 0.822);
+}
+
+.footer_bottom_content_left {
+    width: 320px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer_bottom_content_space {
+    width: 100px;
+    height: 50px;
+}
+
+.footer_bottom_content_right {
+    width: 830px;
+    height: 50px;
+    text-align: center;
+}
+
+
+#id{
+ width: 172px;
+    height: 48px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: black;}

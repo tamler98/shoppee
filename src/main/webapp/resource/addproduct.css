@@ -1,0 +1,257 @@
+@charset "UTF-8";body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+
+header {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(143, 143, 143, 0.342);
+}
+
+.header-logo {
+    height: 100%;
+    width: 3%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+.header-content {
+    height: 100%;
+    width: 75%;
+    line-height: 54px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.header-info {
+    width: 23%;
+    height: 54px;
+    line-height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.suni {
+    margin-right: 10px;
+    border: 1px solid rgb(146, 146, 146);
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+
+.suni:hover {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(201, 201, 201, 0.2);;
+}
+
+.header-info a:hover {
+    color: rgba(0, 0, 0);
+}
+
+/* Main */
+main {
+    width: 100%;
+    margin: 0px auto;
+    height: 2000px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.side-nav {
+    width: 170px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 0px 20px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px rgba(173, 173, 173, 0.651);
+    position: fixed;
+    top: 70px;
+    left: 7.8%;
+}
+
+.side-nav a {
+    font-size: 110%;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.side-nav a:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.side-nav a i {
+    color: orangered;
+}
+
+.product-detail-info-right {
+    width: 54%;
+    padding: 10px;
+}
+
+.product-detail-info-basic {
+    width: 100%;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.39);
+    padding: 24px;
+}
+
+.product-detail-info-basic-title {
+    width: 100%;
+    height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.product-detail-info-basic-add {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.add_image {
+    width: 100%;
+    height: 50px;
+}
+
+.form-group {
+    display: flex;
+    margin-top: 10px;
+}
+
+.col-md-4  {
+    margin-right: 20px;
+    width: 18%;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#product_name {
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#product_category {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#product_des {
+    width: 80%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.product-detail-sale-info {
+    width: 100%;
+    height: 144px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.39);
+    padding: 24px;
+    margin-top: 10px;
+}
+
+.product-detail-shipping {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.39);
+    padding: 24px;
+    margin-top: 10px;
+}
+
+#product_weigth {
+    width: 180px;
+    height: 30px;
+}
+
+#product_long {
+    width: 160px;
+    height: 30px;
+}
+
+#product_long_af {
+    width: 160px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#product_ship {
+    width: 160px;
+    height: 30px;
+}
+
+.product_save_info {
+    width: 100%;
+    height: 24px;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.39);
+    padding: 24px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#button_save_hide {
+    background-color: white;
+    border: 1px solid rgba(151, 151, 151, 0.514);
+    width: 130px;
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#button_save_hide:hover {
+    background-color: rgba(207, 207, 207, 0.185);
+}
+
+#button_save {
+    background-color: #ee4d2d;
+    border: 1px solid rgba(151, 151, 151, 0.514);
+    color: white;
+    width: 130px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+#button_save:hover {
+    background-color: #ee4d2de5;
+}
